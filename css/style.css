@@ -414,6 +414,10 @@ body {
   .footer .row > div {
     margin-bottom: 15px;
   }
+
+  .navbar .navbar-brand {
+    margin-right: 0;
+  }
 }
 
 @media (min-width: 992px) {
