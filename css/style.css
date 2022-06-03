@@ -27,6 +27,14 @@ body {
   box-shadow: none !important;
 }
 
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
 /* end global rules */
 
 /* start navbar */
@@ -200,6 +208,10 @@ body {
 .projects ul li:hover {
   background-color: var(--dark-yellow);
   color: white;
+}
+
+.projects ul {
+  position: relative;
 }
 
 .projects ul li {
