@@ -193,14 +193,17 @@
           <p class="text-black-50 text-uppercase my-0">prepare to be amazed</p>
           <img src="./imgs/title.png" alt="" />
         </div>
-        <ul class="list-unstyled d-flex justify-content-center my-5">
-          <li class="active">all</li>
-          <li>designs</li>
-          <li>code</li>
+        <ul
+          class="animated-list list-unstyled d-flex justify-content-center my-5"
+        >
+          <li class="all-tab active" data-cont=".all">all</li>
+          <li class="html-tab" data-cont=".designs">HTML & CSS</li>
+          <li class="sass-tab" data-cont=".code">Sass</li>
+          <li class="js-tab" data-cont=".code">JS</li>
         </ul>
-        <div class="row">
+        <div class="row content">
           <div
-            class="col-sm-12 col-lg-4"
+            class="all col-sm-12 col-lg-4 sass"
             data-aos="fade-down"
             data-aos-duration="2000"
           >
@@ -214,7 +217,7 @@
             </a>
           </div>
           <div
-            class="col-sm-12 col-lg-4"
+            class="all col-sm-12 col-lg-4 js"
             data-aos="fade-down"
             data-aos-duration="2000"
           >
@@ -228,7 +231,7 @@
             </a>
           </div>
           <div
-            class="col-sm-12 col-lg-4"
+            class="all col-sm-12 col-lg-4 js"
             data-aos="fade-down"
             data-aos-duration="2000"
           >
@@ -242,7 +245,7 @@
             </a>
           </div>
           <div
-            class="col-sm-12 col-lg-4"
+            class="all col-sm-12 col-lg-4 html"
             data-aos="fade-down"
             data-aos-duration="2000"
           >
@@ -256,7 +259,7 @@
             </a>
           </div>
           <div
-            class="col-sm-12 col-lg-4"
+            class="all col-sm-12 col-lg-4 html"
             data-aos="fade-down"
             data-aos-duration="2000"
           >
@@ -270,7 +273,7 @@
             </a>
           </div>
           <div
-            class="col-sm-12 col-lg-4"
+            class="all col-sm-12 col-lg-4 html"
             data-aos="fade-down"
             data-aos-duration="2000"
           >
@@ -284,7 +287,7 @@
             </a>
           </div>
           <div
-            class="col-sm-12 col-lg-4"
+            class="all col-sm-12 col-lg-4 html"
             data-aos="fade-down"
             data-aos-duration="2000"
           >
@@ -298,7 +301,7 @@
             </a>
           </div>
           <div
-            class="col-sm-12 col-lg-4"
+            class="all col-sm-12 col-lg-4 html"
             data-aos="fade-down"
             data-aos-duration="2000"
           >
@@ -312,7 +315,7 @@
             </a>
           </div>
           <div
-            class="col-sm-12 col-lg-4"
+            class="all col-sm-12 col-lg-4 html"
             data-aos="fade-down"
             data-aos-duration="2000"
           >
@@ -525,6 +528,9 @@
     <script src="./js/bootstrap.bundle.min.js"></script>
     <!-- fontawesome -->
     <script src="./js/all.min.js"></script>
+
+    <!-- javascript sheet -->
+    <script src="./js/main.js"></script>
 
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
