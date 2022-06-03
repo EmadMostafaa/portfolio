@@ -419,6 +419,11 @@ body {
     margin-bottom: 10px !important;
   }
 
+  .projects ul li {
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+  }
+
   .subscribe .row div {
     margin-bottom: 20px;
   }
