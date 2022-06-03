@@ -420,7 +420,7 @@ body {
   }
 
   .projects ul li {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.8rem;
     white-space: nowrap;
   }
 
@@ -442,4 +442,5 @@ body {
 
 @media (min-width: 1200px) {
 }
+
 /* end media query */
