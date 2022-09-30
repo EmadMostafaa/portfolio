@@ -37,6 +37,71 @@ body {
 
 /* end global rules */
 
+/* start splash screen */
+.splash-screen {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1030;
+  font-family: "Permanent Marker", cursive;
+  background-color: black;
+  color: white;
+}
+
+.splash-screen.display-none {
+  top: -100vh;
+  transition: all 0.8s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.2;
+  }
+  20% {
+    opacity: 0.4;
+  }
+  30% {
+    opacity: 0.6;
+  }
+  40% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  70% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.4;
+  }
+  90% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fade 2.5s linear forwards;
+}
+
+/* end splash screen */
+
 /* start navbar */
 .navbar {
   background-color: var(--dark-yellow);
@@ -209,6 +274,10 @@ body {
   background-color: var(--dark-yellow);
   color: white;
 }
+
+/* .projects .container .content div {
+  transition: 0.5s;
+} */
 
 .projects ul {
   position: relative;
