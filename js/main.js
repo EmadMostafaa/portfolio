@@ -88,3 +88,14 @@ javaTab.addEventListener("click", function (e) {
     ele.classList.remove("hidden");
   });
 });
+
+// ===================================
+
+// splash screen
+
+let splash = document.querySelector(".splash-screen");
+document.addEventListener("DOMContentLoaded", function (e) {
+  setTimeout(() => {
+    splash.classList.add("display-none");
+  }, 2700);
+});
