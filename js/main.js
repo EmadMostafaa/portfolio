@@ -97,5 +97,5 @@ let splash = document.querySelector(".splash-screen");
 document.addEventListener("DOMContentLoaded", function (e) {
   setTimeout(() => {
     splash.classList.add("display-none");
-  }, 2700);
+  }, 2600);
 });
